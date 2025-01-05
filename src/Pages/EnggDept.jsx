@@ -16,8 +16,6 @@ const EnggDept = () => {
     const Level3 = filterData(employeeList,3);
     const Level5 = filterData(employeeList, 5);
     
-    console.log(Level3);
-    
     const EnggTeam = () => (
       <Tree
         lineWidth={"2px"}
